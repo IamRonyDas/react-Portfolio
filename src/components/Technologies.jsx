@@ -1,10 +1,11 @@
 import React from "react";
 import { RiReactjsLine } from "react-icons/ri";
 import { SiTailwindcss } from "react-icons/si";
+
 import { DiMongodb } from "react-icons/di";
 import { SiFirebase } from "react-icons/si";
 import { FaNodeJs } from "react-icons/fa";
-import { TbBrandNextjs } from "react-icons/tb";
+import { RiFlutterFill } from "react-icons/ri";
 import { animate, motion } from "framer-motion";
 
 const iconVariants = (duration) => ({
@@ -49,9 +50,9 @@ const Technologies = () => {
           variants={iconVariants(1.5)}
           initial="initial"
           animate="animate"
-          className="rounded-2xl border-4 border-neutral-800 p-4 "
+          className="rounded-2xl border-4 border-neutral-800 text-sky-500 p-4 "
         >
-          <TbBrandNextjs className="text-7xl " />
+          <RiFlutterFill className="text-7xl " />
         </motion.div>
         <motion.div
           variants={iconVariants(1)}
